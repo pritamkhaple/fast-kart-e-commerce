@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-up{
+    background-color: #fff;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.up-container{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+    padding: 1rem;
+}
+
+.search-box{
+    /* border: 1px solid black; */
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    background-color: #f5e4e4;
+    width: 40%;
+    padding: 0.3rem;
+}
+
+.search-box img{
+    height: 30px;
+}
+
+.search-box input{
+    border: none;
+    background-color: #f5e4e4;
+    width: 100%;
+}
+
+.login, .cart, .seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
