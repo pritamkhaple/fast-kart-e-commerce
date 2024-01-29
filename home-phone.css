@@ -16,6 +16,18 @@
         gap: 1rem;
     }
 
+    .h3-tag{
+        font-size: 1.5rem;
+    }
+
+    .sp-name{
+        font-size: 1.2rem;
+    }
+
+    .sp-price{
+        font-size: 1rem;
+    }
+
 
 
     /* Electronic section */
@@ -28,10 +40,14 @@
         display: none;
     }
 
-    .electro-slid :nth-child(3),
-    .electro-slid :nth-child(4),
-    .electro-slid :nth-child(5) {
+    .none{
         display: none;
     }
 
+
+    /* shop love grid */
+
+    .different-grid{
+        grid-template-columns: auto;
+    }
 }
