@@ -1,13 +1,18 @@
 @media only screen and (max-width: 800px) {
 
+    .contaienr {
+        max-width: 90vw;
+    }
 
     /* Top navigation */
 
-    .search-box , .seller , .verticl-dots{
+    .search-box,
+    .seller,
+    .verticl-dots {
         display: none;
     }
 
-    .up-container{
+    .up-container {
         gap: 1rem;
     }
 
@@ -15,18 +20,18 @@
 
     /* Electronic section */
 
-    .electronics{
+    .electronics {
         display: block;
     }
 
-    .electro-ad{
+    .electro-ad {
         display: none;
     }
 
     .electro-slid :nth-child(3),
     .electro-slid :nth-child(4),
-    .electro-slid :nth-child(5){
+    .electro-slid :nth-child(5) {
         display: none;
     }
 
-  }
+}
