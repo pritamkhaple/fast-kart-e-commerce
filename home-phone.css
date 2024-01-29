@@ -13,4 +13,20 @@
 
 
 
+    /* Electronic section */
+
+    .electronics{
+        display: block;
+    }
+
+    .electro-ad{
+        display: none;
+    }
+
+    .electro-slid :nth-child(3),
+    .electro-slid :nth-child(4),
+    .electro-slid :nth-child(5){
+        display: none;
+    }
+
   }
