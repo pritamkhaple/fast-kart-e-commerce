@@ -8,8 +8,14 @@
     /* background-color: #f5e4e4; */
 }
 
-body{
-    background-color: #f5e4e4;
+.main-container{
+    background-color: rgb(241, 242, 244);
+    width: 100%;
+}
+
+.contaienr{
+    max-width: 70vw;
+    margin: auto;
 }
 
 .nav-up{
@@ -19,7 +25,6 @@ body{
 }
 
 .up-container{
-    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -37,7 +42,7 @@ body{
     justify-content: center;
     color: black;
     align-items: center;
-    background-color: #f5e4e4;
+    background-color: rgb(241, 242, 244);
     width: 40%;
     padding: 0.3rem;
 }
@@ -48,7 +53,7 @@ body{
 
 .search-box input{
     border: none;
-    background-color: #f5e4e4;
+    background-color: rgb(241, 242, 244);
     width: 100%;
 }
 
@@ -70,7 +75,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95vw;
     margin: auto;
     background-color: #fff;
     gap: 1rem;
@@ -93,3 +97,81 @@ body{
     text-decoration: none;
     word-spacing: 1px;
 }
+
+/* Electronic slider section */
+
+.electronics{
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 80% 20%; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.electro{
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.title span{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #cdb9b9;
+    gap: 2rem;
+    padding: 2rem;
+    height: 255px;
+}
+
+.card-item > img{
+    width: 100px;
+}
+
+.electro-ad{
+    width: fit-content;
+}
+
+.electro-ad img{
+    width: 100%;
+    height: 22.2rem;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.electro-slid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    /* border: 1pc solid red; */
+    margin: 1rem;
+}
+
