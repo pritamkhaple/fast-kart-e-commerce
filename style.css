@@ -102,10 +102,10 @@
 
 .electronics{
     width: 100%;
-    /* display: grid;
-    grid-template-columns: 80% 20%; */
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    /* display: flex;
+    justify-content: space-between; */
     /* background-color: white; */
     gap: 1rem;
     padding: 1rem 0;
@@ -141,7 +141,7 @@
     flex-direction: column;
     border: 1px solid #cdb9b9;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 0;
     height: 255px;
 }
 
