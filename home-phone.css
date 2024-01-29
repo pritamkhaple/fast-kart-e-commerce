@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+
+
+    /* Top navigation */
+
+    .search-box , .seller , .verticl-dots{
+        display: none;
+    }
+
+    .up-container{
+        gap: 1rem;
+    }
+
+
+
+  }
