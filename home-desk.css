@@ -8,6 +8,10 @@
     /* background-color: #f5e4e4; */
 }
 
+section{
+    margin: 1rem 0;
+}
+
 .main-container{
     background-color: rgb(241, 242, 244);
     width: 100%;
@@ -108,11 +112,12 @@
     justify-content: space-between; */
     /* background-color: white; */
     gap: 1rem;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
 }
 
 .electro{
     background-color: white;
+    padding: 1rem 0;
 }
 
 .title{
@@ -210,7 +215,7 @@
 .footer-main{
     width: 100%;
     background-color: #212121;
-    /* padding: 3rem; */
+    padding: 1rem 0;
     text-align: left;
 }
 
@@ -256,6 +261,8 @@
 
 .bottom-foot{
     border-top: 1px solid white;
-    padding: 1rem;
+    padding: 1rem 3rem;
     display: flex;
+    justify-content: center;
+    gap: 8rem;
 }
