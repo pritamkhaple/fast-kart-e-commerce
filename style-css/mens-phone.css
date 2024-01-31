@@ -1,0 +1,19 @@
+@media only screen and (max-width: 800px) {
+
+.men-main-grid{
+    display: block;
+}
+
+.left-men{
+    display: none;
+}
+
+.flx-item{
+    width: 45%;
+}
+
+.prod-img{
+    width: 100%;
+}
+
+}
