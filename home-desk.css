@@ -232,6 +232,7 @@ section{
     justify-content: center;
     align-items: center;
     border-right: 1px solid #454d5e;
+    flex-wrap: wrap;
 }
 
 .ul-container li{
@@ -242,6 +243,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .foot-item{
@@ -265,4 +267,10 @@ section{
     display: flex;
     justify-content: center;
     gap: 8rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.bottom-item img{
+    width: 95%;
 }

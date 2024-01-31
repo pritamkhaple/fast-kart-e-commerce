@@ -16,15 +16,15 @@
         gap: 1rem;
     }
 
-    .h3-tag{
+    .h3-tag {
         font-size: 1.5rem;
     }
 
-    .sp-name{
+    .sp-name {
         font-size: 1.2rem;
     }
 
-    .sp-price{
+    .sp-price {
         font-size: 1rem;
     }
 
@@ -40,14 +40,42 @@
         display: none;
     }
 
-    .none{
+    .none {
         display: none;
     }
 
 
     /* shop love grid */
 
-    .different-grid{
+    .different-grid {
         grid-template-columns: auto;
+    }
+
+    .big-ad-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    /* Footer section */
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .left-foot {
+        gap: 1rem;
+        border-right: none;
+        border-bottom: 1px solid #454d5e;
+    }
+
+    .bottom-foot {
+        gap: 1rem;
     }
 }
