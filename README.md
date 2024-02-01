@@ -7,5 +7,7 @@
 - Upon clicking the fashion icon on the home page, users are directed to product pages.
 - From there, they can click on any product to access its detailed page.
 
+  Other pages work in progress
+
 url
 https://flipkart-pk.netlify.app/
