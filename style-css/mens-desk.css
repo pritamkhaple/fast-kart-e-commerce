@@ -132,6 +132,11 @@
   transition: 1s;
 }
 
+.flx-item a{
+  color: auto;
+  text-decoration: none;
+}
+
 .flx-item:hover {
   -webkit-box-shadow: 0px 2px 18px -5px rgba(128, 128, 128, 1);
   -moz-box-shadow: 0px 2px 18px -5px rgba(128, 128, 128, 1);
@@ -169,5 +174,18 @@
 
 .discount {
   color: #388e3c;
+  font-weight: 600;
+}
+
+.cloth-info{
+  color: black;
+}
+
+.main-price{
+  color: black;
+}
+
+.discount-price{
+  color: black;
   font-weight: 600;
 }

@@ -6,16 +6,18 @@
 
 .product-detail-grid {
   width: 100%;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 40% 60%;
   gap: 1rem;
+  padding-bottom: 6rem;
 }
 
 /* Left photo side */
 
 .prod-side {
   /* border: 1px solid red; */
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .side1 {
