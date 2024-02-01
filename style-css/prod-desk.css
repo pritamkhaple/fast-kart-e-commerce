@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-detail-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 1rem;
+}
+
+/* Left photo side */
+
+.prod-side {
+  /* border: 1px solid red; */
+  padding: 5rem 0;
+}
+
+.side1 {
+  /* display: flex;
+    justify-content: space-between; */
+  /* gap: 1rem; */
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.small-ig {
+  width: 80%;
+}
+
+.small-ig img {
+  width: 100%;
+  border: 1px solid white;
+  margin: 3px;
+  object-fit: fill;
+}
+
+.big-ig {
+  width: 100%;
+  height: 100%;
+}
+
+.big-ig img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.buttons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart {
+  background-color: orange;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy {
+  background-color: yellowgreen;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Right product info side */
+
+.bread {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.prod-brand-name{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.prod-item-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.prod-cloth-info{
+    font-size: 1rem;
+}
+
+/* .pricee span{
+    margin: 0.9rem 0;
+} */
+
+.prod-discount-price{
+    font-size: 1.5rem;
+}
+
+.prod-main-price{
+    color: #878787;
+    font-size: 1rem;
+}
+
+.prod-discount{
+    color: #26a541;
+    font-size: 1rem;
+}
+
+.rating-div{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.assure{
+    width: 60px;
+}
+
+.assure img{
+    width: 100%;
+}
+
+.star{
+    background-color: #26a541;
+    color: white;
+    padding: 0.1rem;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.rate-review{
+    color: #878787;
+    font-weight: 500;
+}
+
+/* Size box */
+
+.size-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-title{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.sizes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.si{
+    border: 1px solid gray;
+    color: black;
+    font-size: 0.9rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: blue;
+}
