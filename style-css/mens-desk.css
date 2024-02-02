@@ -14,7 +14,8 @@
 /* left part */
 
 .left-men {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  background-color: white;
 }
 
 .ad-sec {

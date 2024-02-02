@@ -35,7 +35,8 @@
 
 .cart-item-buttn {
     border: 1px solid blue;
-    width: 10%;
+    height: 2rem;
+    width: 4rem;
     padding: 0.5rem;
     display: flex;
     justify-content: center;
@@ -83,11 +84,48 @@
 .price-det{
     background-color: white;
     padding: 2rem;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
 }
 
 .price-flx{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #878787;
+}
+
+.price-det > .prod-brand-name{
+    font-size: 0.8rem;
+}
+
+.pay-btn{
+    border: 1px solid red;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .cart-main-div, .order-sum{
+        flex-direction: column;
+    }
+
+    .order-sum > .flx-item{
+        flex-direction: column;
+    }
+
+    .order-sum > .flx-item > .item-txt{
+        gap: 0.4rem;
+    }
+
+
 }
