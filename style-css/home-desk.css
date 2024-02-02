@@ -274,3 +274,19 @@ section{
 .bottom-item img{
     width: 95%;
 }
+
+.devlp-name h3{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.devlp-name a{
+    color: white;
+    text-decoration: none;
+}
+
+.dev-hov:hover{
+    color: red;
+    text-decoration: none;
+}
