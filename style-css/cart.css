@@ -6,7 +6,7 @@
 .cart-main-div {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* justify-content: center; */
     /* align-items: flex-start; */
     gap: 1rem;
@@ -76,4 +76,18 @@
 
 .del-by img{
     width: 25px;
+}
+
+/* price details */
+
+.price-det{
+    background-color: white;
+    padding: 2rem;
+}
+
+.price-flx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #878787;
 }
