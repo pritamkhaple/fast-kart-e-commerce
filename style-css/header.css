@@ -175,6 +175,11 @@
     left: 34px;
 }
 
+.closeContainer{
+  width: 20px;
+  margin: 24px;
+}
+
 #close{
     display: none;
     top: 14px;
