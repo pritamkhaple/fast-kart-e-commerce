@@ -1,4 +1,4 @@
-# flipkart-clonee
+# FastKart E-Commerce site
 
 - Flipkart clone developed using HTML, CSS, JavaScript, and Bootstrap
 - Features both home and internal pages
@@ -13,4 +13,4 @@
   Other pages are work in progress
 
 url
-https://flipkart-pk.netlify.app/
+https://fast-kart-pk.netlify.app/
