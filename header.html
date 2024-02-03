@@ -1,118 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
     <link rel="stylesheet" href="/style-css/home-desk.css">
     <link rel="stylesheet" href="/style-css/home-phone.css">
+    <link rel="stylesheet" href="/style-css/header.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="flipkart-icon.svg" type="image/x-icon">
 </head>
+
 <body>
     <header id="headerfile">
         <nav>
             <div class="nav-up">
                 <div class="up-container">
+                    <div class="burger">
+                        <img src="/assets/burger.svg" alt="" id="burgr">
+                    </div>
+                    <div id="closeContainer">
+                        <img src="/assets/close.svg" id="close" alt="">
+                    </div>
                     <div class="logo">
-                        <a href="/index.html"><img src="/assets/flipkart-logo.svg" alt=""></a>
+                        <a href="/index.html"><span>Fast</span><span>Kart</span></a>
                     </div>
                     <div class="search-box">
                         <img src="/assets/search.svg" alt="">
                         <input type="search" placeholder="Search For Products, Brands & More">
                     </div>
-                    <div class="login">
-                        <img src="/assets/profile.svg" alt="">
-                        <span>Login</span>
-                        <span>^</span>
-                    </div>
-                    <div class="cart">
-                        <img src="/assets/header_cart.svg" alt="">
-                        <span>Cart</span>
-                    </div>
-                    <div class="seller">
+                    <a href="login.html">
+                        <div class="login">
+                            <img src="/assets/profile.svg" alt="">
+                            <span>Login</span>
+                            <span>^</span>
+                        </div>
+                    </a>
+                    <a href="cart.html">
+                        <div class="cart">
+                            <img src="/assets/header_cart.svg" alt="">
+                            <span>Cart</span>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="seller">
                         <img src="/assets/Store.svg" alt="">
                         <span>Become a Seller</span>
                     </div>
-                    <div class="verticl-dots">
+                    </a>
+                    <a href="">
+                        <div class="verticl-dots">
                         <img src="/assets/vertical-dots.svg" alt="">
                     </div>
+                    </a>
                 </div>
             </div>
         </nav>
         <div class="menu-container">
             <div class="nav-down">
                 <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/groccery.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Groccery</a>
-                    </div>
-                </div>
-                <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/mob.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Mobiles</a>
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Groccery</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/fasion.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="/men.html">Fashion</a>
-                    </div>
-                </div>
-                <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/electronic.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Electronics</a>
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Mobiles</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/furniture.jpg" alt="">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Women</a>
+                            </div>
+                        </a>
                     </div>
-                    <div class="menu-title">
-                        <a href="#">Home & Furniture</a>
-                    </div>
-                </div>
-                <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/appliances.jpg" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Appliances</a>
-                    </div>
-                </div>
-                <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/travel.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Travel</a>
-                    </div>
-                </div>
-                <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/beuty-toys.png" alt="">
-                    </div>
-                    <div class="menu-title">
-                        <a href="#">Beauty, toys & more</a>
+                    <div class="submenu" id="fashionSubmenu">
+                        <div class="submenu-item">
+                            <a href="women.html">All products </a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="women-dress.html">Dresses</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="women-pant.html">Pants</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="women-skirt.html">Skirts</a>
+                        </div>
                     </div>
                 </div>
                 <div class="menu-items">
-                    <div class="menu-img">
-                        <img src="/assets/nav2 assets/two-wheel.png" alt="">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Men</a>
+                            </div>
+                        </a>
                     </div>
-                    <div class="menu-title">
-                        <a href="#">Two Wheelers</a>
+                    <div class="submenu" id="fashionSubmenu">
+                        <div class="submenu-item">
+                            <a href="men.html">All products </a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#">Shirts</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="men.html">Pants</a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href="#">Hoodies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Home & Furniture</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Appliances</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Travel</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Beauty, toys & more</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-tit" id="fashionMenu">
+                        <a href="">
+                            <div class="menu-img">
+                                <!-- for future if we want add img -->
+                            </div>
+                            <div class="menu-title">
+                                <a href="#">Two Wheelers</a>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -120,7 +201,9 @@
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
