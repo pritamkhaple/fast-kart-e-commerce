@@ -77,11 +77,12 @@ section {
   -webkit-box-shadow: 0px 2px 18px -5px rgba(128, 128, 128, 1);
   -moz-box-shadow: 0px 2px 18px -5px rgba(128, 128, 128, 1);
   box-shadow: 0px 2px 18px -5px rgba(128, 128, 128, 1);
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .card-item > img {
-  width: 100px;
+  width: 80%;
+  height: 80%;
 }
 
 .electro-ad {
@@ -107,7 +108,7 @@ section {
   align-items: center;
   gap: 0.5rem;
   /* border: 1pc solid red; */
-  margin: 1rem;
+  padding: 1rem;
 }
 
 /* Grid section */
